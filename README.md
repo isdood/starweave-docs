@@ -33,18 +33,18 @@ STARWEAVE is a revolutionary distributed cognitive architecture that combines **
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        STARWEAVE Architecture                    │
+│                        STARWEAVE Architecture                   |
+├─────────────────────────────────────────────────────────────────┤
+│  ┌──────────────┐  ┌─────────────┐  ┌─────────────┐             │
+│  │ Web Interface│  │ Pattern     │  │ LLM         │             │
+│  │ (Phoenix     │  │ Engine      │  │ Integration │             │
+│  │  LiveView)   │  │ (Elixir)    │  │ (Ollama)    │             │
+│  └──────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐              │
-│  │ Web Interface │  │ Pattern     │  │ LLM         │              │
-│  │ (Phoenix     │  │ Engine      │  │ Integration │              │
-│  │  LiveView)   │  │ (Elixir)    │  │ (Ollama)    │              │
-│  └─────────────┘  └─────────────┘  └─────────────┘              │
-├─────────────────────────────────────────────────────────────────┤
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐              │
-│  │ Distributed  │  │ Working     │  │ gRPC        │              │
-│  │ Processing   │  │ Memory      │  │ Services    │              │
-│  │ Framework    │  │ (ETS/DETS)  │  │ (Python)    │              │
+│  │ Distributed │  │ Working     │  │ gRPC        │              │
+│  │ Processing  │  │ Memory      │  │ Services    │              │
+│  │ Framework   │  │ (ETS/DETS)  │  │ (Python)    │              │
 │  └─────────────┘  └─────────────┘  └─────────────┘              │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -132,6 +132,10 @@ STARWEAVE builds upon decades of research in cognitive science, distributed syst
 - **Distributed processing** paradigms in computer science
 - **Energy-based models** in theoretical physics
 - **Self-organizing systems** in complex systems theory
+
+## Notes
+
+While I'd initially had the project open-sourced, I've decided to close-source the project as it approaches a useable state due to lack of contributors. This is subject to change again in the future.
 
 ---
 
