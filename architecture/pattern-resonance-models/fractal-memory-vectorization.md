@@ -2,7 +2,7 @@
 
 ## 📋 Document Purpose
 
-This document provides a high-level overview of the fractal memory vectorization technology developed for the Resonance-Language project. It highlights key innovations, performance characteristics, and potential applications while maintaining proprietary implementation details.
+This document provides a high-level overview of the fractal memory vectorization technology developed for the Resonance-Language project. It highlights key innovations, performance characteristics, and potential applications for the underlying algorithm.
 
 ---
 
